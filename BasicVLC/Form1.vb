@@ -20,10 +20,13 @@ Public Class Form1
         VlcControl1.VlcMediaplayerOptions = {"--file-logging", "-vvv", "--logfile=LibVlcLogs.log"}
 
         'These lines will set libvlc dir
-        e.VlcLibDirectory = New DirectoryInfo(New FileInfo(Assembly.GetEntryAssembly().Location).DirectoryName)
+        Dim currentAssembly = Assembly.GetEntryAssembly()
+        Dim currentDirectory = New FileInfo(currentAssembly.Location).DirectoryName
+        'e.VlcLibDirectory = New DirectoryInfo(currentDirectory) 'I used this for binaries
+        e.VlcLibDirectory = New DirectoryInfo(Path.Combine(currentDirectory.ToString, "libvlc", If(IntPtr.Size = 4, "win-x86", "win-x64"))) 'Mostly people use this
     End Sub
     Private Sub form1_load(sender As Object, e As EventArgs) Handles MyBase.Load
-        'Refresh volume
+        'Refresh volume status
         TrackBar3.Value = VlcControl1.Audio.Volume
         Label3.Text = TrackBar3.Value & "%"
     End Sub
@@ -51,7 +54,8 @@ Public Class Form1
                 VlcControl1.Video.AspectRatio = VlcControl1.Width & ":" & VlcControl1.Height
             End If
             'Gets total video duration and insert into label2 like 00:54
-            label2.Text = Math.Round(VlcControl1.GetCurrentMedia.Duration.TotalMilliseconds / 60000, 2).ToString("00:00")
+            Dim t As TimeSpan = TimeSpan.FromMilliseconds(VlcControl1.GetCurrentMedia.Duration.TotalMilliseconds)
+            label2.Text = String.Format("{1:D2}:{2:D2}", t.Hours, t.Minutes, t.Seconds, t.Milliseconds)
         Catch ex As Exception
             MessageBox.Show(ex.Message, "Exception", MessageBoxButtons.OK, MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button1)
         End Try
