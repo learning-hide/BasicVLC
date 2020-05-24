@@ -18,32 +18,32 @@ Just test and try it now.<br>
 <center><img src="https://raw.githubusercontent.com/graysuit/BasicVLC/master/BasicVLC/Images/screenshot.PNG" style="max-width:100%;"></center>
 <h1>Events in form1.vb</h1>
 <ol>
-<li>form1_shown Plays video from CommandLineArgs (Can be associate videos with player)</li>
-<li>VlcControl1_VlcLibDirectoryNeeded Generate logs LibVlcLogs.log and set libvlc dir</li>
-<li>form1_load refresh volume status</li>
-<li>pictureBox2_Click is playbutton</li>
-<li>PlayNow() plays video according to situation</li>
-<li>TrackBar3_Scroll is for changing volume status</li>
-<li>VlcControl1_EndReached sets relaod image in play button and progressbar value to maximum</li>
-<li>PictureBox6_Click for Fullscreen/normal screen</li>
-<li>Fullscreen() for Fullscreen/normal screen</li>
-<li>PlayFile(filename) plays from both URL and filename</li>
-<li>VlcControl1_Playing with set total ms of video in label2 after seekbar</li>
-<li>PictureBox7_Click will stop and dispose video</li>
-<li>ChangeProgress(),ProgressBar1_MouseMove,ProgressBar1_MouseDown changes progress using mouse moves</li>
-<li>timer1_Tick sets current video time status in Label1 after every 1 second</li>
-<li>timer2_Tick will run in fullscreen mode,used for hiding controls and cursor  after 3 seconds no activity</li>
-<li>VlcControl1_DoubleClick to fullscreen</li>
-<li>VlcControl1_Click to pause,play,reload</li>
-<li>VlcControl1_SizeChanged for setting aspect ratio,Good for removing Blackshadow around sides</li>
-<li>pictureBox8_Click to mute/unmute video</li>
-<li>OpenToolStripMenuItem1_Click for opeing file path and play</li>
-<li>StreamToolStripMenuItem_Click for opeing stream and play</li>
-<li>AboutToolStripMenuItem1_Click for opeing about form2</li>
-<li>ExitToolStripMenuItem1_Click for exiting</li>
-<li>VlcControl1_DragDrop for playing dragged video</li>
-<li>VlcControl1_DragEnter for preparing DragDrop event</li>
-<li>User32Interop.GetLastInput() returns time of last mouse/keyboard move</li>
+<li><b>form1_shown</b> Plays video from CommandLineArgs (Can be associate videos with player)</li>
+<li><b>VlcControl1_VlcLibDirectoryNeeded</b> Generate logs LibVlcLogs.log and set libvlc dir</li>
+<li><b>form1_load</b> refresh volume status</li>
+<li><b>pictureBox2_Click</b> is playbutton</li>
+<li><b>PlayNow()</b> plays video according to situation</li>
+<li><b>TrackBar3_Scroll</b> is for changing volume status</li>
+<li><b>VlcControl1_EndReached</b> sets relaod image in play button and progressbar value to maximum</li>
+<li><b>PictureBox6_Click</b> for Fullscreen/normal screen</li>
+<li><b>Fullscreen()</b> for Fullscreen/normal screen</li>
+<li><b>PlayFile(filename)</b> plays from both URL and filename</li>
+<li><b>VlcControl1_Playing</b> with set total ms of video in label2 after seekbar</li>
+<li><b>PictureBox7_Click</b> will stop and dispose video</li>
+<li><b>ChangeProgress(),ProgressBar1_MouseMove,ProgressBar1_MouseDown</b> changes progress using mouse moves</li>
+<li><b>timer1_Tick</b> sets current video time status in Label1 after every 1 second</li>
+<li><b>timer2_Tick</b> will run in fullscreen mode,used for hiding controls and cursor  after 3 seconds no activity</li>
+<li><b>VlcControl1_DoubleClick</b> to fullscreen</li>
+<li><b>VlcControl1_Click</b> to pause,play,reload</li>
+<li><b>VlcControl1_SizeChanged</b> for setting aspect ratio,Good for removing Blackshadow around sides</li>
+<li><b>pictureBox8_Click</b> to mute/unmute video</li>
+<li><b>OpenToolStripMenuItem1_Click</b> for opeing file path and play</li>
+<li><b>StreamToolStripMenuItem_Click</b> for opeing stream and play</li>
+<li><b>AboutToolStripMenuItem1_Click</b> for opeing about form2</li>
+<li><b>ExitToolStripMenuItem1_Click</b> for exiting</li>
+<li><b>VlcControl1_DragDrop</b> for playing dragged video</li>
+<li><b>VlcControl1_DragEnter</b> for preparing DragDrop event</li>
+<li><b>User32Interop.GetLastInput()</b> returns time of last mouse/keyboard move</li>
 </ol>
 <h2> Contact me :</h2>
 <ul><li>Facebook: <a href="https://fb.com/messages/t/gray.programmerz.5"><b>gray.programmerz.5</b></a></li>
