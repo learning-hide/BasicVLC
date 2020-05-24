@@ -1,5 +1,5 @@
 <h1>BasicVLC ~ VLC.Dotnet_Farewell</h1>
-<p><b>BasicVLC is an video player with basic controls that are neccessary needed in any player.
+<p><b>BasicVLC</b> is an video player with basic controls that are neccessary needed in any player.
 It can be an farewell to <b><a href="https://github.com/ZeBobo5/Vlc.DotNet">VLC.Dotnet</a></b> (Wonderfull project) as developers wants to replace it with <b><a href="https://github.com/videolan/libvlcsharp">Libvlcsharp</a></b>.
 This player can be used as sample of VLC.Dotnet or Libvlc.
 It is specially designed for developers with comments but windows users can also use it.
