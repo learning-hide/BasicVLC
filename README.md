@@ -1,11 +1,10 @@
 <h1>BasicVLC ~ VLC.Dotnet_Farewell</h1>
-<p>BasicVLC is an video player with basic controls that are neccessary needed in any player.
-It can be an farewell to VLC.Dotnet (Wonderfull project) as developers wants to replace it with Libvlcsharp.
+<p><b>BasicVLC is an video player with basic controls that are neccessary needed in any player.
+It can be an farewell to <b><a href="https://github.com/ZeBobo5/Vlc.DotNet">VLC.Dotnet</a></b> (Wonderfull project) as developers wants to replace it with <b><a href="https://github.com/videolan/libvlcsharp">Libvlcsharp</a></b>.
 This player can be used as sample of VLC.Dotnet or Libvlc.
 It is specially designed for developers with comments but windows users can also use it.
 BasicVLC uses VLC.Dotnet that is wrapper around Libvlc (Library provided by Videolan ~ THANKS)</p>
 <center><img src="https://raw.githubusercontent.com/graysuit/BasicVLC/master/BasicVLC/Images/icon.PNG"></center>
-
 <h1>Clone it now:</h1>
 <code><pre>git clone https://github.com/graysuit/BasicVLC.git</pre></code>
 <h1>Download for windows:</h1>
@@ -14,7 +13,6 @@ Don't build anything,<br>
 We already build it for you,<br>
 Just test and try it now.<br>
 <a href="https://github.com/graysuit/BasicVLC/releases/tag/1">windows binaries</a></p>
-
 <center><img src="https://raw.githubusercontent.com/graysuit/BasicVLC/master/BasicVLC/Images/screenshot.PNG" style="max-width:100%;"></center>
 <h1>Events in form1.vb</h1>
 <ol>
