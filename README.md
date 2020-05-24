@@ -12,7 +12,7 @@ BasicVLC uses VLC.Dotnet that is wrapper around Libvlc (Library provided by Vide
 Don't build anything,<br>
 We already build it for you,<br>
 Just test and try it now.<br>
-<a href="https://github.com/graysuit/BasicVLC/releases/tag/1">windows binaries</a></p>
+<a href="https://github.com/graysuit/BasicVLC/releases">windows binaries</a></p>
 <center><img src="https://raw.githubusercontent.com/graysuit/BasicVLC/master/BasicVLC/Images/screenshot.PNG" style="max-width:100%;"></center>
 <h1>Events in form1.vb</h1>
 <ol>
