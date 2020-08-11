@@ -1,8 +1,7 @@
 <h1>BasicVLC ~ VLC.Dotnet_Farewell</h1>
-<p><b>BasicVLC</b> is an video player with basic controls that are neccessary needed in any player.
-It can be an farewell to <b><a href="https://github.com/ZeBobo5/Vlc.DotNet">VLC.Dotnet</a></b> (Wonderfull project) as developers wants to replace it with <b><a href="https://github.com/videolan/libvlcsharp">Libvlcsharp</a></b>.
-This player can be used as sample of VLC.Dotnet or Libvlc.
-It is specially designed for developers with comments but windows users can also use it.
+<p><b>BasicVLC</b> is an video player sample with added needed controls that are neccessary in any player.
+It is an sample of <b><a href="https://github.com/ZeBobo5/Vlc.DotNet">VLC.Dotnet</a></b> (Wonderfull project).
+It is specially developed for developers with comments but windows users can also use it to test using releases.
 BasicVLC uses VLC.Dotnet that is wrapper around Libvlc (Library provided by Videolan ~ THANKS)</p>
 <center><img src="https://raw.githubusercontent.com/graysuit/BasicVLC/master/BasicVLC/Images/icon.PNG"></center>
 <h1>Clone it now:</h1>
