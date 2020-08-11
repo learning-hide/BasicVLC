@@ -1,4 +1,4 @@
-<h1>BasicVLC ~ VLC.Dotnet_Farewell</h1>
+<h1>BasicVLC ~ Minimal code</h1>
 <p><b>BasicVLC</b> is an video player sample with added needed controls that are neccessary in any player.
 It is an sample of <b><a href="https://github.com/ZeBobo5/Vlc.DotNet">VLC.Dotnet</a></b> (Wonderfull project).
 It is specially developed for developers with comments but windows users can also use it to test using releases.
