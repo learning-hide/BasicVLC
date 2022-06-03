@@ -43,10 +43,9 @@ Just test and try it now.<br>
 <li><b>User32Interop.GetLastInput()</b> returns time of last mouse/keyboard move</li>
 </ol>
 <h2> Contact me :</h2>
-<ul><li>Facebook: <a href="https://fb.com/messages/t/gray.programmerz.5"><b>gray.programmerz.5</b></a></li>
-<li>Email: <b><a href="mailto:hackrefisher@gmail.com">hackrefisher@gmail.com</a></b></li>
+<ul>
+<li>Email: hackrefisher (AT )gmail (DOT) com</li>
 <li>Website: <a href="https://tiplava.blogspot.com/"><b>tiplava</b></a></li>
-<li><a href="https://gitter.im/ha3kre/community"><img src="https://badges.gitter.im/ha3kre/community.svg"></a>
   
   </li></ul>
 
